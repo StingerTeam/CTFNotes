@@ -15,6 +15,6 @@ set REPO=%GITHUB_USERNAME%/CTFNotes
 push.bat
 
 :: 创建PR到StingerTeam的%GITHUB_USERNAME%分支
-gh pr create --base %GITHUB_USERNAME% --head %REPO%:main --repo StingerTeam/CTFNotes --title "Update %GITHUB_USERNAME% branch" --body "This PR updates the %GITHUB_USERNAME% branch."
+gh pr create --base %GITHUB_USERNAME% --repo StingerTeam/CTFNotes --title "Update %GITHUB_USERNAME% branch" --body "This PR updates the %GITHUB_USERNAME% branch."
 
 :end
