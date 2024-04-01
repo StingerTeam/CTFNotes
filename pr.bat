@@ -17,6 +17,6 @@ git commit -m "update"
 git push
 
 :: 创建PR到StingerTeam的%GITHUB_USERNAME%分支
-gh pr create --base %GITHUB_USERNAME% --head %GITHUB_USERNAME%/%REPO%:main --repo StingerTeam/CTFNotes --title "Update %GITHUB_USERNAME% branch" --body "This PR updates the %GITHUB_USERNAME% branch."
+gh pr create --base %GITHUB_USERNAME% --repo StingerTeam/CTFNotes --title "Update %GITHUB_USERNAME% branch" --body "This PR updates the %GITHUB_USERNAME% branch."
 
 :end
